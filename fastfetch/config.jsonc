@@ -1,0 +1,56 @@
+{
+  "display": {
+    "key": {
+      "width": 4
+    },
+    "separator": "",
+    "size": {
+      "binaryPrefix": "si"
+    }
+  },
+  "logo": {
+    "preserveAspectRatio": false,
+    "source": "~/dotfiles/assets/arch-logo.png",
+    "type": "kitty",
+    "height": 9
+  },
+  "modules": [
+    "break",
+    {
+      "format": "{3}",
+      "key": " ",
+      "keyColor": "blue",
+      "type": "os"
+    },
+    {
+      "key": "󰌽 ",
+      "keyColor": "yellow",
+      "type": "kernel"
+    },
+    {
+      "key": "󰅐 ",
+      "keyColor": "green",
+      "type": "uptime"
+    },
+    {
+      "key": " ",
+      "type": "memory"
+    },
+    {
+      "key": " ",
+      "keyColor": "red",
+      "type": "packages"
+    },
+    {
+      "key": " ",
+      "keyColor": "cyan",
+      "type": "wm"
+    },
+    {
+      "key": " ",
+      "keyColor": "magenta",
+      "symbol": "circle",
+      "type": "colors"
+    }
+  ]
+}
